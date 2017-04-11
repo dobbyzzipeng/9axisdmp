@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\delay.o"
+".\objects\stm32f10x_it.o"
+".\objects\usart.o"
+".\objects\time.o"
+".\objects\stm32_iic.o"
+".\objects\drv_spi.o"
+".\objects\inv_mpu.o"
+".\objects\inv_mpu_dmp_motion_driver.o"
+".\objects\misc.o"
+".\objects\stm32f10x_exti.o"
+".\objects\stm32f10x_flash.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_tim.o"
+".\objects\stm32f10x_usart.o"
+".\objects\stm32f10x_spi.o"
+".\objects\core_cm3.o"
+".\objects\system_stm32f10x.o"
+".\objects\startup_stm32f10x_hd.o"
+--strict --scatter ".\Objects\MPU9250DMP.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\MPU9250DMP.map" -o .\Objects\MPU9250DMP.axf
