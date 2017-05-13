@@ -1,7 +1,7 @@
 .\objects\main.o: ..\User\main.c
 .\objects\main.o: ..\CMSIS\stm32f10x.h
 .\objects\main.o: ..\CMSIS\core_cm3.h
-.\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\main.o: ..\CMSIS\system_stm32f10x.h
 .\objects\main.o: ..\User\stm32f10x_conf.h
 .\objects\main.o: ..\Lib\inc\stm32f10x_exti.h
@@ -15,9 +15,9 @@
 .\objects\main.o: ..\User\delay.h
 .\objects\main.o: ..\User\eMPL\inv_mpu_dmp_motion_driver.h
 .\objects\main.o: ..\User\eMPL\inv_mpu.h
-.\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\main.o: ..\User\usart.h
 .\objects\main.o: ..\User\stm32_iic.h
 .\objects\main.o: ..\User\drv_spi.h
-.\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

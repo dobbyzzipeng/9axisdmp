@@ -1,8 +1,8 @@
 .\objects\drv_spi.o: ..\User\drv_spi.c
 .\objects\drv_spi.o: ..\User\drv_spi.h
-.\objects\drv_spi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\drv_spi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\drv_spi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\drv_spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\drv_spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\drv_spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\drv_spi.o: ..\Lib\inc\stm32f10x_spi.h
 .\objects\drv_spi.o: ..\CMSIS\stm32f10x.h
 .\objects\drv_spi.o: ..\CMSIS\core_cm3.h

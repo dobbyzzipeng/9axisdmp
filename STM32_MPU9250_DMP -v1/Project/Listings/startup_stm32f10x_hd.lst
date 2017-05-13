@@ -563,12 +563,13 @@ ARM Macro Assembler    Page 9
               00000400 
               00000200 
               00000000 
-Command Line: --debug --xref --cpu=Cortex-M3 --apcs=interwork --depend=.\object
-s\startup_stm32f10x_hd.d -o.\objects\startup_stm32f10x_hd.o -I"E:\zzpProject\ST
-M32_MPU9250_DMP\STM32_MPU9250_DMP -v1\Project\RTE" -ID:\Keil_v5\ARM\PACK\Keil\S
-TM32F1xx_DFP\2.1.0 -ID:\Keil_v5\ARM\CMSIS\Include --predefine="__UVISION_VERSIO
-N SETA 513" --predefine="STM32F10X_HD SETA 1" --list=.\listings\startup_stm32f1
-0x_hd.lst ..\CMSIS\startup\startup_stm32f10x_hd.s
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\objects\startup_stm32f10x_hd.d -o.\objects\startup_stm32f10x_hd.
+o -I"F:\四轴飞行器\四轴飞行器DIY\copter\9axisdmp\STM32_MPU9250_DMP -v1\Project\
+RTE" -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include -IC:\Keil_v5
+\ARM\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0 --predefine="
+__UVISION_VERSION SETA 517" --predefine="STM32F10X_HD SETA 1" --list=.\listings
+\startup_stm32f10x_hd.lst ..\CMSIS\startup\startup_stm32f10x_hd.s
 
 
 
