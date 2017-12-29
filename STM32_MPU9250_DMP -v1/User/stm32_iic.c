@@ -17,7 +17,6 @@ static void I2C_delay(void)
 {
     volatile int i = 7;
     while (i)
-
     i--;
 }
 

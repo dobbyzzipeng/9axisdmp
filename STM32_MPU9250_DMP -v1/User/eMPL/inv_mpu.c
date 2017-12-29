@@ -66,9 +66,6 @@
 
 float q0=1.0f,q1=0.0f,q2=0.0f,q3=0.0f;
 
-
-u8 show_tab[]={"0123456789"};
-
 int temp;
 //声明相关变量
 unsigned long sensor_timestamp;

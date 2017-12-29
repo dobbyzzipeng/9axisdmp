@@ -69,7 +69,7 @@ int main(void)
         {
             led_off;
         }
-        else if(count==2000)
+        else if(count>=2000)
         {
             count = 0;
         }
